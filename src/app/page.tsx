@@ -18,6 +18,9 @@ export default function Home() {
           <Link href="/login" className={buttonVariants({ variant: "default" })}>
             Sign in
           </Link>
+          <Link href="/teams" className={buttonVariants({ variant: "outline" })}>
+            Teams
+          </Link>
           <Link href="/account" className={buttonVariants({ variant: "outline" })}>
             Account
           </Link>
